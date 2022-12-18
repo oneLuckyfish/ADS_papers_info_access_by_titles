@@ -2,7 +2,7 @@ import ads
 import pandas as pd
 import re
 
-token = 'J7Ycch7jXIt8GmxHK2vYxs48DrpFRrBVcRuFGjzt'  # ads上获取的token，每个用户每天搜索次数有限制
+token = '***'  # ads上获取的token，每个用户每天搜索次数有限制
 data = pd.read_csv('lamostpapers_test.csv')
 titles = data.loc[:, 'title']
 # print(titles)
